@@ -73,20 +73,20 @@
 #fecha {
   position: absolute;
   margin-top: 15px;
-  margin-left: 80px;
+  margin-left: 110px;
   font-size: 20px;
  
 }
 #mes {
   position: absolute;
   margin-top: 15px;
-  margin-left: 110px;
+  margin-left: 130px;
   font-size: 20px;
 }
 #año {
   position: absolute;
   margin-top: 15px;
-  margin-left: 200px;
+  margin-left: 220px;
   font-size: 20px;
   box-shadow: 10;
 }
