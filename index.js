@@ -4,10 +4,10 @@ let hours = document.getElementById("horas")
 let minutes = document.getElementById("minutos")
 let seconds = document.getElementById("segundos")
 // FECHA
-let day = document.getElementById("dia")
-let date = document.getElementById("fecha")
-let month = document.getElementById("mes")
-let year = document.getElementById("año")
+let datos = document.getElementById("dia")
+// let date = document.getElementById("fecha")
+// let month = document.getElementById("mes")
+// let year = document.getElementById("año")
 
 const mostrarHora = () => {
   let timer = new Date()
@@ -40,10 +40,10 @@ console.log(mes);
 let año = dates.getFullYear()
 console.log(año);
 
-  day.innerHTML = String(dia)
-  date.innerHTML = String(fecha)
-  month.innerHTML = String(mes)
-  year.innerHTML = String(año)
+  datos.innerHTML = String(`${dia} ${fecha} ${mes} ${año}`)
+  // date.innerHTML = String(fecha)
+  // month.innerHTML = String(mes)
+  // year.innerHTML = String(año)
 }
 
 mostrarHora()
